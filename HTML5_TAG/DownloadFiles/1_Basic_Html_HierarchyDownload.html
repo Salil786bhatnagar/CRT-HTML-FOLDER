@@ -1,0 +1,112 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download HTML File</title>
+</head>
+<body>
+
+<button onclick="downloadFile()">Download HTML File</button>
+
+<script>
+function downloadFile() {
+  // Create a dummy HTML content
+  const htmlContent = '<html><head><title>Downloaded HTML File</title></head><body><h1>Hello, World!</h1></body></html>';
+
+  // Create a Blob with the HTML content
+  const blob = new Blob([htmlContent], { type: 'text/html' });
+
+  // Create a temporary link element
+  const link = document.createElement('a');
+
+  // Set the link's attributes
+  link.href = window.URL.createObjectURL(blob);
+  link.download = 'Html_Characters.html';
+
+  // Append the link to the document
+  document.body.appendChild(link);
+
+  // Trigger a click event on the link to initiate the download
+  link.click();
+
+  // Remove the link from the document
+  document.body.removeChild(link);
+}
+</script>
+
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download HTML File</title>
+</head>
+<body>
+
+<button onclick="downloadFile()">2_Html_Characters Download File</button>
+
+<script>
+function downloadFile() {
+  // Create a dummy HTML content
+  const htmlContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Character Sets</h1>
+    <hr/>
+    <h3>NOTE:=> <u>To display an HTML page correctly, the browser must know what character set (encoding) to use:</u><br/>
+        Examples:- meta charset="UTF-8"
+    </h3>
+    <br/><hr/>
+    <h2><u>HTML Character Sets</u></h2><br/>
+      <h3>All modern computer languages use the UTF-8 character set as default.</h3><br/>
+      <h3>The encoding for the early web was ASCII. ASCII used 7 bits for the character and could only represent 128 different characters (English letters).</h3><br/>
+      <h3>Windows-1252 was the first character set in Windows. It was a copy of ASCII but used 8-bits to represent 256 different characters (international letters). Windows-1252 is supported by all browsers.</h3>
+      <br/>
+   <br/>
+      <center>
+          <img src="img/metagat-graph-img.jpg" width="65%" height="65%" />
+      </center>
+ <br/>
+ <hr/>
+ <h1><u>HTML ASCII Reference</u></h1>
+ <br/>
+</body>
+</html>`;
+
+  // Create a Blob with the HTML content
+  const blob = new Blob([htmlContent], { type: 'text/html' });
+
+  // Create a temporary link element
+  const link = document.createElement('a');
+
+  // Set the link's attributes
+  link.href = window.URL.createObjectURL(blob);
+  link.download = 'Html_Characters.html';
+
+  // Append the link to the document
+  document.body.appendChild(link);
+
+  // Trigger a click event on the link to initiate the download
+  link.click();
+
+  // Remove the link from the document
+  document.body.removeChild(link);
+}
+</script>
+
+</body>
+</html>
+

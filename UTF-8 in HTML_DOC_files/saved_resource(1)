@@ -1,0 +1,43 @@
+
+var ftGUID_7970653="59045DE15C5EB8";
+var ftConfID_7970653="0";
+var ftParams_7970653="ftOBA=1&ft_agentEnv=0&ft_referrer=https://www.educba.com/utf-8-in-html/;https%3A%2F%2Fwww.educba.com%2Futf-8-in-html%2F&us_privacy=${US_PRIVACY}&site_url=https://www.educba.com/utf-8-in-html/&pub_id=1&sup_platform=1&cachebuster=169833.7536999974&ft_keyword=DV360CampID:__20935332892__&ft_section=DV360CampID:20935332892&ft_partnerimpid=ABAjH0gTcbts_f2Afq3NxWvYBKZz";
+var ftKeyword_7970653="";
+var ftCustom_7970653="";
+var ftSection_7970653="DV360CampID:20935332892";
+var ftSegment_7970653="";
+var ftSegmentList_7970653=[];
+var ftRuleMatch_7970653="0";
+var ftTimestamp_7970653="1709651038";
+var ftGeoC2_7970653="in";
+var ftGeoState_7970653="mp";
+var ftGeoCity_7970653="roshanhar";
+var ftISP_7970653="bharti airtel limited";
+var ftSpeed_7970653="mobile";
+var ftConnType_7970653="mobile";
+var ftDMA_7970653="-1";
+var ftLong_7970653="76.24";
+var ftLat_7970653="21.74";
+var ftPostal_7970653="450661";
+var ftTimeZone_7970653="+530";
+var ftMobileCarrier_7970653="airtel";
+var ftImp7970653 = {};
+ftImp7970653.privacy = "x";
+ftImp7970653.guidAge = "4";
+ftImp7970653.impID = "EB58CE3D-33B3-0ABB-FA87-C96768523393";
+ftImp7970653.duid = "FT:59045DE15C5EB8";
+
+ftImp7970653.ft_tpplid = "";
+ftImp7970653.ft_c = {};
+ftImp7970653.gdpr = "";
+ftImp7970653.gdpr_consent = "";
+ftImp7970653.gdpr_pd = "";
+ftImp7970653.oob_consent = "";
+ftImp7970653.gdprStoredConsent = "";
+ftImp7970653.us_privacy = "!!US_PRIVACY!";
+ftImp7970653.gpc = "";
+
+ftImp7970653.jsAppend = "1";
+var ftCreativeId_7970653 = "4600367";
+(function(){var tag=document.getElementById("ft_servedby_7970653")||function(s){return s[s.length-1]}(document.getElementsByTagName("script")),js=document.createElement("script");js.src="https://ajs-assets.ftstatic.com/ftUtils.js";js.id="ftscript_m7970653";js.setAttribute("name","ftscript_m7970653");tag.parentNode.insertBefore(js,tag)})();window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("7970653");
+
